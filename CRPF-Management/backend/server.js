@@ -29,3 +29,4 @@ app.use('/api/subadmin', subAdminRoutes);
 app.listen(PORT, () => {
   console.log(`Server running on http://localhost:${PORT}`);
 });
+// Enhanced error handling middleware
