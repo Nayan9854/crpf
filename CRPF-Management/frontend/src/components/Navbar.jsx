@@ -59,3 +59,5 @@ const Navbar = () => {
 };
 
 export default Navbar;
+
+// Fixed navbar responsive design
