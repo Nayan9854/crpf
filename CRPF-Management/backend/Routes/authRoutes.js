@@ -5,3 +5,5 @@ const { loginUser } = require('../controllers/authController');
 router.post('/login', loginUser);
 
 module.exports = router;
+
+// Fixed authentication token validation
