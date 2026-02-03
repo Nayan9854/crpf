@@ -2,7 +2,7 @@ const mongoose = require('mongoose');
 require('dotenv').config(); // Load environment variables from .env file
 const connectDB = async () => {
   try {
-    const conn = await mongoose.connect('mongodb+srv://NayanJyoti:NayanJyoti@cluster0.ybbwtkm.mongodb.net/CRPF?retryWrites=true&w=majority&appName=Cluster0/CRPF', {
+    const conn = await mongoose.connect('mongodb+srv://NayanJyothiBhattarai:NayanJyothiBhattarai@cluster0.ybbwtkm.mongodb.net/CRPF?retryWrites=true&w=majority&appName=Cluster0/CRPF', {
       useNewUrlParser: true,
       useUnifiedTopology: true,
     });
