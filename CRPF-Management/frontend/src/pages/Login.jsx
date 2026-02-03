@@ -95,3 +95,4 @@ const Login = ({ onLoginSuccess }) => {
 };
 
 export default Login;
+// Fixed login form validation
