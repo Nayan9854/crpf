@@ -345,3 +345,5 @@ module.exports = {
   getUsers,
   getWeapons
 };
+
+// Fixed admin data filtering issue
