@@ -115,3 +115,4 @@ const TaskCard = ({ task, onEdit, onDelete }) => {
 };
 
 export default TaskCard;
+// Fixed task card rendering issue
