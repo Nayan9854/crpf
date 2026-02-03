@@ -15,3 +15,5 @@ const weaponSchema = new mongoose.Schema({
 });
 
 module.exports = mongoose.model('Weapon', weaponSchema);
+
+// Improved weapon inventory tracking
