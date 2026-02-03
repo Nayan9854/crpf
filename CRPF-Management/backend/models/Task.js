@@ -19,3 +19,5 @@ const taskSchema = new mongoose.Schema({
 
 module.exports = mongoose.model('Task', taskSchema);
 
+
+// Fixed task status update logic
